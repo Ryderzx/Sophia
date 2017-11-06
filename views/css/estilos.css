@@ -1,0 +1,206 @@
+body{
+	background: rgba(230,230,230,1);
+}
+/* -- HEADER -- */
+.navbar { 
+	margin-bottom: 0;
+	background: #111;
+}
+.navs{
+ max-height: 50px;
+}
+
+.navs2{
+	background: #158;
+}
+.nav > li > a{
+	padding: 15px 10px;
+}
+.cuerpo-logo{
+	position: relative;
+	width: 105px;
+	height: 105px;
+	margin: -7px auto;
+	border-radius: 72px;
+}
+.fondo-logo{
+	background: #111;
+	width: 90px;
+	height: 90px;
+	margin: -15px  auto;
+	margin-left: 0px;
+	border-radius: 72px;
+}
+.fondo-logo:hover{
+	border-color: #9700FF;
+	-webkit-box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(151, 0, 255, .9);
+          box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(151, 0, 255, .9);
+}
+.text-1:focus{
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(151, 0, 255, .9);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(151, 0, 255, .9);
+}
+.input-form:focus{
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(151, 0, 255, .9);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 18px rgba(151, 0, 255, .9);
+}
+/*a > .fondo-logo:hover{
+	background: blue;
+	width: 110px;
+	height: 110px;
+	margin: auto;
+	border-radius: 72px;
+}*/
+.btn-sophia{
+	background: #111;
+	color: #999;
+}
+.btn-sophia:hover > span{
+	color: #BD5FFF;
+}
+.btn-sophia:hover{
+	color: #BD5FFF;
+	border-color: #9700FF;
+	-webkit-box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(151, 0, 255, .9);
+    box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(151, 0, 255, .9);
+}
+.btn-sophia2:hover > span{
+	color: black;
+}
+.btn-sophia2:hover{
+	color: #BD5FFF;
+	border-color: #9700FF;
+	-webkit-box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(155, 155, 155, .9);
+    box-shadow: inset 0 11px 11px rgba(0,0,0,.075), 0 0 28px rgba(155, 155, 155, .9);
+}
+.btn-sophia2:hover{
+	color: #BD5FFF;
+	
+}
+.close-modal{
+	color: #a023ff;
+}
+.menu{
+	font-size: 12px;
+}
+.menu-s:hover > .span-s{
+	left: 0px;
+	top: 40px;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ba5bff+0,9700ff+100&0+0,0.25+38,0.5+63,0.5+63,1+100 */
+background: -moz-linear-gradient(top, rgba(186,91,255,0) 0%, rgba(173,56,255,0.25) 38%, rgba(164,33,255,0.5) 63%, rgba(151,0,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(186,91,255,0) 0%,rgba(173,56,255,0.25) 38%,rgba(164,33,255,0.5) 63%,rgba(151,0,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(186,91,255,0) 0%,rgba(173,56,255,0.25) 38%,rgba(164,33,255,0.5) 63%,rgba(151,0,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ba5bff', endColorstr='#9700ff',GradientType=0 ); /* IE6-9 */
+
+}
+.menu-s:hover > span{
+	color: #BD5FFF;
+}
+.menu-s:hover > .iconnav-s{
+	color: #BD5FFF;
+	font-size: 30px;
+}
+/*.position-user{
+	margin-right: -200px;
+	margin-top: 100px;
+}*/
+.text-1{
+	background-color: black;
+	border-radius: 40px 0 0 40px;
+	color: #999;
+}
+
+.buscar-1{
+	background-color: black;
+	color: #9700FF;
+
+}
+
+.jumbotron-fm {
+	/*padding: 0px 0;*/
+	padding-top: 20px;
+	padding-bottom:  20px;
+	margin: 0 auto;
+}
+.jb{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: #222;
+}
+.carousel {
+	margin-left: 0;
+  	height: 320px;
+  	width: 120%;
+}
+
+.indicators{
+	margin-bottom:  -20px;
+}
+.carousel-inner > .item > img {
+  	height: 280px;
+ 	width: 60%;
+ 	margin: 0 auto;
+ 	margin-top: 20px;
+}
+.carousel-s{
+	color: #9700FF;
+}
+.carousel{
+	margin-left: -10%;
+	width: 120%;
+}
+.divi{
+	height: 20%; 
+	padding:20px ; 
+	background: #111;
+}
+
+@media (max-width: 990px) {
+	.menu-s{
+		font-size: 10px;
+		text-align: center;
+	}
+	.buscar-s{
+		width: 180px;
+	}
+	
+	.fondo-logo{
+		width: 80px;
+		height: 80px;
+		left: 0px;
+	}
+	.menu-s:hover > .iconnav-s{
+	color: #BD5FFF;
+	font-size: 20px;
+}
+}
+@media (max-width: 767px){
+	.navsb {
+		background: #111;
+	}
+	.navd{
+		overflow-y: hidden;
+		overflow: hidden;
+	}
+	.buscar-s{
+		width: 100%;
+	}
+	
+	.buscar-3{
+		width:  90%;
+		margin-left: 30px;
+	}	
+}
+@media (min-width: 768px){
+	.navsb {
+		width: 95%;
+		margin: 0px;
+		padding: 0px;
+		margin-left: 20px;
+	}
+}
